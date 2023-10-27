@@ -1,6 +1,22 @@
-# Description
+# Country Population Lookup v2
+
+**Content**
+- Description
 - Instructions on running app
 - Visuals of the app
+
+## Description
+
+This web application offers users the ability to quickly search for any country and retrieve real-time information on its latest population and population growth. The application includes several useful functions, such as:
+
+- Sorting data by various categories, from largest to smallest and vice versa (click on the category header)
+- Searching for specific countries based on letters
+- Filtering data by continent
+- Navigating back to the homepage
+- Adjusting display by choosing the page size and
+switching between pages
+
+With its user-friendly interface, the application facilitates effortless and efficient lookups of country populations, serving as a valuable resource for individuals in need of overview of demographic information for particular countries.
 
 ## How to run the app
 
