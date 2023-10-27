@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+table {
+  margin: 0 auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#search {
+  width: 30%;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: grey;
+}
+
+#addButton {
+  background-color: pink;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#addButton:hover, input[type="checkbox"]:hover {
+  background-color: rgb(251, 209, 217);
+  cursor:pointer;
+}
+
+input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+input[type="checkbox"]:checked{
+  accent-color: pink;
+}
+
+#paging {
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+.arrow {
+  margin: 5px;
+  font-size:30px;
+  width:35px;
+  padding: 1px;
+}
+.refresh {
+  font-size: 20px;
+}
+
+th:hover, .refresh:hover, .arrow:hover {
+  color:grey;
+  cursor:pointer;
+}
+.hidden {
+  display:none;
+}
+
+.pageControl {
+  margin-top:20px;
+}

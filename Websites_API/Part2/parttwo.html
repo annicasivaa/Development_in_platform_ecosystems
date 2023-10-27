@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My page</title>
+        <link rel="stylesheet" type="text/css" href=".css">
+        <script defer src="solid.js"></script>
+        <script defer src="fontawesome.js"></script>
+        <script type="text/javascript" src='actions.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    </head>
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            width: 30%;
+            padding: 10px;
+            margin: 5px 10px;
+            border-radius: 5px;
+            border-width: 1px;
+            border-color: grey;
+        }
+
+        #addButton {
+            background-color: rgb(213, 37, 108);
+            color: white;
+            padding: 0.8em 1.5em;
+            border-radius: 8px;
+            border-style: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+            transition: color 100ms;
+        }
+
+        #addButton:hover,#addButton:focus {
+            background-color: #F082AC;
+        }
+
+        button {
+            border: none;
+            background: none;
+        }
+        button:hover, button:focus {
+            color: grey;
+            cursor: pointer;
+        }
+        
+    </style>
+    
+
+    <body>
+        <div id="placeholder">
+            <label for="addCountry">Enter a country to add to the list:</label> <br>
+            <input type="text" id="addCountry" name="addCountry" placeholder="Country">
+            <button id="addButton" type = "button" onclick = "checkCountry()">Add</button><br> <!-- addCountry()">Add</button> -->
+            <input type="text" id="search" name="search" placeholder="Search" oninput="match(this.value)">
+            <h3>Countries:</h3> 
+            <ul id="countryList">
+            </ul>
+        </div>
+    </body>
+</html>

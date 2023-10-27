@@ -1,0 +1,86 @@
+html {
+    background-color: rgb(229, 142, 229);
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+
+#picture img[src="me.jpg"] {
+    margin: 1.5em;
+}
+
+nav {
+    margin-left:12%;
+}
+nav a{
+    color: #fff;
+    background-color:purple;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline;
+    float: left;
+}
+
+nav a:hover {
+    background-color: #cb72c0;
+    transition: 0.3s ease;
+}
+
+ul {
+    /*display:flex;*/
+    padding:1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+li { 
+    list-style-type: none;
+    background-color:rgb(101, 39, 101);
+    margin:0.1em;
+    font-weight:bold;
+    flex: 1 1 auto;
+    padding: 2em;
+    font-size:1em;
+}
+
+p { 
+    font-weight:normal;
+}
+
+.box {
+    text-align: center;
+    padding: 0.1em;
+    margin:auto;
+    margin-bottom:0.5em;
+    background-color:purple;
+    width: 75vw;
+
+}
+
+@media screen and (max-width: 830px) {
+    nav a {
+        width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+        font-size:0.8em;
+    }
+    li {
+        font-size: 55%;
+    }
+    nav {
+        margin-left:0;
+    }
+  }

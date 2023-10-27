@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+}
+
+.left {
+    float: left;
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
