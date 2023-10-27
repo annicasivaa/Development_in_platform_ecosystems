@@ -1,4 +1,12 @@
-# How to run the app
+# Description
+
+## Visuals
+
+![Homepage of the app](./images/app_homepage.png)
+
+![Page when filtered with search and continents, and sorted by Population](./images/app_page2.png)
+
+## How to run the app
 
 Make sure node and yarn is installed:
 https://nodejs.org/en/download
