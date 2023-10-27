@@ -1,10 +1,6 @@
 # Description
-
-## Visuals
-
-![Homepage of the app](./images/app_homepage.png)
-
-![Page when filtered with search and continents, and sorted by Population](./images/app_page2.png)
+- Instructions on running app
+- Visuals of the app
 
 ## How to run the app
 
@@ -25,4 +21,14 @@ git clone https://github.uio.no/alexanrf/in5320-assignment2
 3. Change directory to where the yarn.lock file is.
 `cd your_react_app`
 Run `yarn start`
+
+
+## Visuals
+
+Homepage of the app
+![Homepage of the app](./images/app_homepage.png)
+
+Page when filtered with search and continents, and sorted by Population
+![Page when filtered with search and continents, and sorted by Population](./images/app_page2.png)
+
 
