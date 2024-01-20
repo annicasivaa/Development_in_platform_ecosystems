@@ -1,9 +1,9 @@
-Objective:
+## Objective:
 The primary goal of this project was to develop a mobile application that digitalizes the management of commodity transactions, 
 specifically focusing on restocking and dispensing activities. The intended users are health department personnel responsible 
 for managing and monitoring the flow of commodities within healthcare facilities.
 
-## Features
+## Features:
 1. Dashboard:
 - Overview of current stock levels, recent transactions, and important notifications.
 2. Restocking Module:
