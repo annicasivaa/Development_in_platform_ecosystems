@@ -1,0 +1,30 @@
+.alignCenter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 30px
+  }
+  
+  .statisticsContainer {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+  .chartContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 65vh; /*Making it so that the top of the commodities headline is visible on normal screen sizes*/
+  }
+  
+  .commoditiesContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;   
+  }

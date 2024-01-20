@@ -2,13 +2,14 @@ import React from "react";
 import classes from "./App.module.css";
 import { useState } from "react";
 
-import { Browse } from "./Browse";
-import { Datasets } from "./Datasets";
-import { Insert } from "./Insert";
-import { Navigation } from "./Navigation";
+import { Navigation } from "./components/Navigation";
+import { Dispense } from "./components/Dispense";
+import { Restock } from "./components/Restock";
+import { Statistics } from "./components/Statistics";
+import { Tutorial } from "./components/Tutorial";
 
 function MyApp() {
-  const [activePage, setActivePage] = useState("Browse");
+  const [activePage, setActivePage] = useState("Dispense");
 
   function activePageHandler(page) {
     setActivePage(page);
@@ -16,16 +17,17 @@ function MyApp() {
 
   return (
     <div className={classes.container}>
-      <div className={classes.left}>
+      <div className={classes.top}>
         <Navigation
           activePage={activePage}
           activePageHandler={activePageHandler}
         />
       </div>
-      <div className={classes.right}>
-        {activePage === "Browse" && <Browse />}
-        {activePage === "Datasets" && <Datasets />}
-        {activePage === "Insert" && <Insert />}
+      <div className={classes.bottom}>
+        {activePage === "Dispense" && <Dispense />}
+        {activePage === "Restock" && <Restock />}
+        {activePage === "Statistics" && <Statistics />}
+        {activePage === "Tutorial" && <Tutorial />}
       </div>
     </div>
   );

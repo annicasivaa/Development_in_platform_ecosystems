@@ -3,16 +3,19 @@
     min-height: 100vh;
 }
 
-.left {
-    width: 200px;
-    min-height: 100vh;
-    padding-top: 20px;
+/*Menu bar*/
+.top{ 
+    height: 100px;
+    padding-top: 5px;
 }
 
-.right {
-    
+/*page content*/
+.bottom{
+    position: absolute;
+    top: 96px;
+    width: 100%;
     flex-grow: 1;
-    min-height: 100vh;
+    min-height: calc(100vh - 96px); /*fills the screen, but subtracts the top bar*/
     padding: 26px 16px 0;
     background: #f0f0f0;
 }

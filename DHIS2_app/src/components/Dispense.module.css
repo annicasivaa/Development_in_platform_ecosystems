@@ -1,0 +1,77 @@
+.alignCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70vw;
+  justify-content: flex-start;
+}  
+
+.group {
+  /* quantity and remove-button */
+  display: flex;
+  align-items: center;
+  width: 50%; /* Set the width to 50% of the .container*/
+  padding: 5px;
+}
+
+.input {
+  /* dispense by/dispense to and date and time fields */
+  width: 50%;
+  padding: 5px;
+}
+
+.commoditySelect {
+  /* commodity field */
+  width: 35vw;
+  padding: 5px;
+  margin-top: 21px;
+}
+
+.errorCommoditySelect {
+  /*commodity field if error occurs, to stop it from pushing quantity and the remove button to new line*/
+  width: 32.9vw;
+  padding: 5px;
+  margin-top: 21px;
+}
+
+.endBalanceField{
+  width: 15vw;
+}
+
+.quantityInput{
+  width: 16vw;
+  padding-left: 5px;
+}
+  
+.removeBtn {
+  /* Remove commodity-button */
+  width: 5vw;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 21px;
+  margin-bottom: 0;
+}
+
+.addCommodityBtn {
+  width: 4.8vw;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.btn {
+  /* register button */
+  width: 10vw;
+}
+
+.AlertBar{
+  margin-top: 10px;
+}

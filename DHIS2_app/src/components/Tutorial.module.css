@@ -1,0 +1,45 @@
+.alignCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.description {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  text-align: start;
+  line-height: 25px;
+}
+
+.intro {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  text-align: center;
+  line-height: 25px;
+}
+
+.btn {
+  width: 10vw;
+  margin-top: 20px;
+}
+
+.tab {
+  width: 30vw;
+}
+
+.tutorialContainer {
+  width: 90vw;
+  border: 1px solid #404b5a;
+  padding-bottom: 30px;
+}
